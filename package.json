@@ -1,0 +1,19 @@
+{
+  "name": "notesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msrecec/NotesApp.git"
+  },
+  "author": "Mislav Srecec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msrecec/NotesApp/issues"
+  },
+  "homepage": "https://github.com/msrecec/NotesApp#readme"
+}
