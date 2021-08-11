@@ -1,9 +1,8 @@
-console.log('utils.js');
 
-const name = 'Mimi';
+const fs = require('fs');
 
-const add = function(a, b) {
-  return a+b;
+function getNotes() {
+  return fs.readFileSync('./notes.txt');
 }
 
-module.exports = add;
+module.exports = getNotes.bind(this);

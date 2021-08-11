@@ -1,7 +1,5 @@
-// const name = require('./utils.js')
-const add = require('./utils.js')
+const getNotes = require('./notes.js');
 
-const sum = add(2,2);
+const myNotes = getNotes();
 
-// console.log(name);
-console.log(sum);
+console.log(myNotes);
